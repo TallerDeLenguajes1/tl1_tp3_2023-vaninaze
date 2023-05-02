@@ -12,7 +12,7 @@ int main(){
     {
         for (int j = 0; j < 12; j++)
         {
-            mat[i][j] = rand()%50000 + 10000;
+            mat[i][j] = rand()%40001 + 10000; //num entre 10000 y 50000
         }
     }
     for (int i = 0; i < 5; i++)
